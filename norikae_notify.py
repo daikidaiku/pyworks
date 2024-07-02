@@ -18,8 +18,8 @@ load_dotenv()
 
 # import pyperclip # type: ignore #クリップボードにコピーする用
 
-startsta = '西早稲田' # 出発駅
-endsta = '鶴川' # 到着駅
+startsta = '東京' # 出発駅
+endsta = '品川' # 到着駅
 
 # 改行を追加する関数
 def add_newline_to_times(times):
@@ -377,9 +377,6 @@ message_dict = {
     },
   ]
 }
-
-# print(route_to('西早稲田','鶴川'))
-# pyperclip.copy(json.dumps(route_to('西早稲田','鶴川'), ensure_ascii=False, indent=2))
 
 with ApiClient(configuration) as api_client:
     # Create an instance of the API class
