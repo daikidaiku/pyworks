@@ -1,2 +1,9 @@
-#env
+# env
 .env
+
+# uploadApp
+/uploadApp/._client_secrets.json
+/uploadApp/client_secrets.json
+/uploadApp/mycreds.txt
+/uploadApp/setting.yaml
+/uploadApp/.env
