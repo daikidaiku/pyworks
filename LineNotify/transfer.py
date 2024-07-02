@@ -40,14 +40,6 @@ for i in stat:
     stations.append(i.find("a").text)
 print(stations)
 
-# print(json.dumps(times, indent=4,ensure_ascii=False))
-
-# for time in times:
-# 	print(time.text)
-# for station in stat:
-# 	print(station)
-
-
 json_template = {
   "type": "bubble",
   "size": "mega",
